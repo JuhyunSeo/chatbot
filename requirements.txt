@@ -1,10 +1,8 @@
-os
-pandas
-numpy
-dot
-norm
-ast
-openai
-get_embedding
+pip
+openai==0.28.1
 streamlit
-message
+streamlit-chat
+matplotlib
+scipy
+plotly
+scikit-learn
