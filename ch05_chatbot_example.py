@@ -42,7 +42,7 @@ else:
     #데이터프레임의 text 열로부터 embedding열을 생성한다.
     df['embedding'] = df.apply(lambda row: get_embedding(
         row.text,
-        engine="text-embedding-ada-002"
+        engine="text-embedding-3-small"
     ), axis=1)
 
     #추후 사용을 위해 df를 'embedding.csv' 파일로 저장한다.
