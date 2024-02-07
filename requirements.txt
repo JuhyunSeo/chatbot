@@ -6,3 +6,4 @@ matplotlib
 scipy
 plotly
 scikit-learn
+streamlit-option-menu
