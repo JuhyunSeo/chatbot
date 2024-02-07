@@ -129,7 +129,7 @@ if st.session_state['generated']:
 # 참고페이지 : https://luvris2.tistory.com/121
 # https://icons.getbootstrap.com/
 with st.sidebar:
-    choose = option_menu("통계정보원 챗봇", ["홈", "규정 및 규칙", "인트라넷"],
+    choose = option_menu("App Menu", ["Home", "Rules", "Intranet"],
                         icons = ["bi bi-house", "bi bi-file-check-fill", "bi bi-send-check-fill"],
                         menu_icon="bi bi-app-indicator", default_index=0,
                         styles={
