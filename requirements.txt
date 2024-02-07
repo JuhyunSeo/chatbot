@@ -10,4 +10,4 @@ streamlit-option-menu
 components
 Pillow
 plotly
-io
+#io
