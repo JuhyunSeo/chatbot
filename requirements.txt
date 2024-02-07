@@ -7,7 +7,7 @@ scipy
 plotly
 scikit-learn
 streamlit-option-menu
-streamlit.components.v1
+components
 PIL
 plotly.express
 io
