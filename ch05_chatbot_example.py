@@ -102,7 +102,7 @@ def generate_response(messages):
 st.link_button("Homepage", "http://www.kosii.or.kr")
 
 
-st.image('image/ask_me_chatbot.png', width=50, height=50)
+st.image('image/ask_me_chatbot.png', width=50)
 
 # 화면에 보여주기 위해 챗봇의 답변을 저장할 공간 할당
 if 'generated' not in st.session_state:
