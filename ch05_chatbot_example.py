@@ -124,3 +124,18 @@ if st.session_state['generated']:
    for i in reversed(range(len(st.session_state['generated']))):
       message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
       message(st.session_state['generated'][i], key=str(i))
+
+# 사이드 바 작성
+# 참고페이지 : https://luvris2.tistory.com/121
+# https://icons.getbootstrap.com/
+with st.sidebar:
+    choose = option_menu("통계정보원 챗봇", ["홈", "규정 및 규칙", "인트라넷"],
+                        icons = ["bi bi-house", "bi bi-file-check-fill", "bi bi-send-check-fill"],
+                        menu_icon="bi bi-app-indicator", default_index=0,
+                        styles={
+                            #default_index = 처음에 보여줄 페이지 인덱스 번호
+                            "container" : {"padding" : "5!important", "background-color" : "#fafafa"},
+                            "icon" : {"color":"orange", "font-size": "25px"},
+                            "nav-link": {"font-size" : "16px", "text-align" : "left", "margin":"0px", "--hover-color": "#eee"},
+                            "nav-link-selected": {"background-color": "#02ab21"}
+                        })
