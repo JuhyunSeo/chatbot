@@ -98,8 +98,8 @@ def generate_response(messages):
       max_tokens=500)
    return result['choices'][0]['message']['content']
 
-st.link_button("Homepage", "https://www.kosii.or.kr")
-st.link_button("Intranet", "https://gw.kosii.or.kr")
+
+st.link_button("Homepage", "http://www.kosii.or.kr")
 
 
 st.image('image/ask_me_chatbot.png')
