@@ -144,3 +144,6 @@ with st.sidebar:
                             "nav-link": {"font-size" : "16px", "text-align" : "left", "margin":"0px", "--hover-color": "#eee"},
                             "nav-link-selected": {"background-color": "#02ab21"}
                         })
+
+st.page_link("ch05_chatbot_example.py", label="Home")
+st.page_link("https://www.kosii.or.kr", label="Intranet")
