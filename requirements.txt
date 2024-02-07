@@ -8,6 +8,6 @@ plotly
 scikit-learn
 streamlit-option-menu
 components
-PIL
-plotly.express
+Pillow
+plotly
 io
