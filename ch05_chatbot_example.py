@@ -98,6 +98,10 @@ def generate_response(messages):
       max_tokens=500)
    return result['choices'][0]['message']['content']
 
+st.link_button("Homepage", "https://www.kosii.or.kr")
+st.link_button("Intranet", "https://gw.kosii.or.kr")
+
+
 st.image('image/ask_me_chatbot.png')
 
 # 화면에 보여주기 위해 챗봇의 답변을 저장할 공간 할당
@@ -147,5 +151,3 @@ with st.sidebar:
     # st.page_link("ch05_chatbot_example.py", label="Home")
     # st.page_link("https://www.kosii.or.kr", label="Intranet")
 
-st.link_button("Homepage", "https://www.kosii.or.kr")
-st.link_button("Intranet", "https://gw.kosii.or.kr")
